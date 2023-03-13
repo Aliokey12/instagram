@@ -1,0 +1,280 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            box-sizing: border-box;
+            font-family: 'popins', sans-serif;
+        }
+        
+        .header {
+            height: 54px;
+            background-color: #fff;
+        }
+        
+        #instagram {
+            margin-left: 25px;
+        }
+        
+        .container {
+            background-color: #fff;
+            height: 100vh;
+            padding: 5px;
+            width: 50%;
+        }
+        
+        #pp {
+            width: 30px;
+            height: 30px;
+            border-radius: 16px;
+            margin-right: 5px;
+        }
+        
+        #colon {
+            text-align: center;
+            justify-content: center;
+            margin-left: 200px;
+        }
+        
+        #st {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+        }
+        
+        #searchBar {
+            margin-left: 100px;
+        }
+        
+        .colo {
+            display: grid;
+            font-size: 15px;
+        }
+        
+        .colo img {
+            display: grid;
+            width: 80px;
+            border-radius: 50%;
+            margin-top: 10px;
+            margin-left: 80vh;
+        }
+        
+        #meli {
+            width: 600px;
+        }
+        
+        #cont {
+            width: 170vh;
+        }
+        
+        #aliss {
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+        }
+        
+        .footer {
+            width: 100%;
+        }
+        
+        .footer a {
+            color: darkblue;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 40px;
+            display: inline-block;
+            text-align: center;
+            padding: 5px;
+            border: 3px solid #ccc;
+        }
+        
+        .footer a:hover {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 40px;
+        }
+        
+        .footer a:visited {
+            color: darkblue;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 12px;
+            margin-right: 40px;
+            display: inline-block;
+            text-align: center;
+            padding: 5px;
+        }
+        
+        #nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            text-decoration: none;
+            font-weight: bold;
+            display: grid;
+            width: 245px;
+            padding-left: 20px;
+        }
+        
+        #nav :hover {
+            background-color: black;
+            border-radius: 50px;
+        }
+        
+        #nav a {
+            padding: 15px;
+            color: white;
+            text-decoration: none;
+        }
+        
+        #nav a:nth-child(1) {
+            background: black;
+            display: grid;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-left: 10px;
+            border-radius: 0%;
+        }
+        
+        #meliss {
+            display: flex;
+            margin-top: 30px;
+            margin-left: 0%;
+            border-radius: 50%;
+            height: 150px;
+        }
+        
+        #conts {
+            display: flex;
+            height: 100px;
+            width: 100%;
+            padding-left: 200px;
+        }
+        
+        #conts small {
+            margin-left: 90px;
+            margin-top: 60px;
+            font-size: 20px;
+            color: #fff;
+            margin-right: 50px;
+        }
+        
+        #conts button {
+            margin-left: 10px;
+            margin-top: 60px;
+            background-color: white;
+            color: black;
+            font-size: bold;
+            height: 30px;
+            border-radius: 10px;
+            border: none;
+        }
+        
+        #conts button:hover {
+            background-color: #343a40;
+            color: white;
+        }
+        
+        #conts button:nth-child(4) {
+            margin-left: 20px;
+        }
+        
+        #conts button:nth-child(5) {
+            border: none;
+            background-color: transparent;
+            color: white;
+            font-size: 25px;
+            margin-top: 55px;
+        }
+        
+        #conts button:nth-child(5):hover {
+            color: #ccc;
+        }
+        
+        #conts p {
+            font-size: 10px;
+            margin-top: 10px;
+        }
+        
+        #sc {
+            font-size: 10px;
+            color: #fff;
+            margin-top: 200px;
+            margin-left: 0px;
+        }
+        
+        button small {
+            display: grid;
+            padding: 0px;
+        }
+        
+        .contaa {
+            height: 100px;
+        }
+        
+        #contaa {
+            display: flex;
+            background-color: transparent;
+            border: none;
+            height: 100px;
+        }
+        
+        .img-thumbnail {
+            background-color: transparent;
+            display: flex;
+            margin-top: 100px;
+            height: 80px;
+            width: 60px;
+            border-radius: 50%;
+            margin-top: 150px;
+            margin-left: 50px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+        #gönderi {
+            display: flex;
+            margin-top: 30px;
+            padding-left: 200px;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        #Takipçi {
+            display: flex;
+            margin-top: 30px;
+            padding-left: 100px;
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        #Takipçi:hover {
+            color: gray;
+        }
+        
+        #kolum {
+            display: flex;
+            padding-left: 400px;
+        }
+        
+        #yer {
+            display: flex;
+            margin-top: 100px;
+            margin-left: 10px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .text {
+            display: grid;
+            color: #fff;
+            margin-top: 50px;
+        }
